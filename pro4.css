@@ -1,0 +1,243 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.bgmin{
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/pexels-mitja-juraja-970517.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; 
+     /* background-color: black;  */
+     background-position: center;
+}
+/* .bgmin ::before{
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: url("images/vdo1.mp4");
+    z-index: 1;
+    opacity: 0.5;
+    
+    
+} */
+
+ #tophead {
+    
+    color: rgb(151, 0, 0);
+    margin-top: 10rem;
+    align-items: center;
+    font-family: bhootli;
+     z-index: 1;
+    justify-content: center;
+    font-size: 14em;
+    
+    display: flex;
+    background: none;
+
+} 
+
+@font-face {
+    font-family: 'bhootli';
+    src: url('images/BloodLust.ttf');
+}
+
+
+
+
+#the {
+    animation: bdo 2s ease-in-out 1.4s infinite;
+background: transparent;
+}
+#the:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px red);
+}
+#the1:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px red);
+}
+#the2:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px red);
+}
+#the3:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px red);
+}
+#the4:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px red);
+
+}
+#the5:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px green);
+    /* filter: saturate(3); */
+}
+#the6:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px red);
+
+}
+#the7:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px red);
+}
+
+
+#the1 {
+    animation: bdo 2s ease-in-out 1.3s infinite;
+    background: transparent;
+
+}
+
+#the2 {
+    animation: bdo 2s ease-in-out 1.2s infinite;
+    background: transparent;
+
+}
+
+#the3 {
+    animation: bdo 2s ease-in-out 1.1s infinite;
+    background: transparent;
+
+}
+
+#the4 {
+    animation: bdo 2s ease-in-out 1s infinite;
+    background: transparent;
+
+}
+
+#the5 {
+    animation: bdo 2s ease-in-out 0.9s infinite;
+    background: transparent;
+
+}
+
+#the6 {
+    animation: bdo 2s ease-in-out 0.8s infinite;
+    background: transparent;
+
+}
+
+#the7 {
+    animation: bdo 2s ease-in-out 0.7s infinite;
+    background: transparent;
+
+}
+
+@keyframes bdo {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.img{
+
+   /* display: block;   */
+   display: flex;
+   bottom: 0%;
+
+justify-content: space-around;
+height: 100vh;
+margin-top: -20em;
+/* overflow: hidden; */
+
+
+    
+} 
+.img img{
+     animation: dots 19s ease-in-out infinite; 
+   height: 50px;
+   bottom: 0;
+   margin-top: -12em;
+overflow: hidden;
+opacity: 0.5;
+
+}
+@keyframes dots{
+    0%{
+        transform: translateY(0);
+    }
+    
+    70%{
+        opacity: 1;
+    }
+     90%{
+        transform: translateY(120vh);
+
+
+    }
+    100% {
+         opacity: 0; 
+
+    }
+}
+.img :nth-child(2){
+    animation-delay: 3s;
+    height: 30px;
+}
+.img :nth-child(3){
+    animation-delay: 5s;
+    height: 40px;
+}
+.img :nth-child(4){
+    animation-delay: 10s;
+    height: 35px;
+
+}
+.img :nth-child(5){
+    animation-delay: 10s;
+    height: 8em;
+
+
+}
+.img :nth-child(1){
+    animation-delay: 7s;
+    height: 25px;
+
+}
+.img :nth-child(6){
+    animation-delay: 15s;
+    height: 60px;
+    opacity: 0.3;
+}
+.img :nth-child(7){
+    height: 40px;
+    animation-delay: 7s;
+    opacity: 0.3;
+
+}
+.img :nth-child(8){
+    animation-delay: 9s;
+}
+.img :nth-child(9){
+    animation-delay: 10s;
+    opacity: 0.2;
+    height: 40px;
+}
+.img :nth-child(10){
+    animation-delay: 8.5s;
+}
